@@ -1,0 +1,26 @@
+.messageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message {
+  font-size: 1rem;
+  padding: 15px;
+  width: 85%;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+
+.send {
+  background-color: #ecf2f2;
+  color: #546566;
+  border-radius: 36px 36px 36px 0;
+}
+
+.receive {
+  color: #546566;
+  background-color: #e7e7e7;
+  border-radius: 36px 36px 0 36px;
+}
