@@ -32,6 +32,7 @@ const CalendarMessage = ({
       className={`${styles.message} ${styles[messageType]}`}
       style={{
         ...(isCalendar ? { backgroundColor: "#eeeef8" } : {}),
+        ...(isDone ? { width: "70%" } : { width: "50%" }),
       }}
     >
       <p className={styles.calendarTitle}> {calendarTitle}</p>
