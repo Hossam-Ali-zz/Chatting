@@ -11,7 +11,8 @@ import {
 import moment from "moment";
 import SideMenu from "../../components/SideMenu";
 import ConversationTag from "../../components/ConversationTag";
-import ChatMessage from "../../components/ChatMessage";
+import ChatMessage from "../../components/ChatMessage/NormalMessage";
+import CalendarMessage from "../../components/ChatMessage/CalendarMessage";
 import Conversations from "../../assets/constants/conversations.json";
 import Messages from "../../assets/constants/messages.json";
 import styles from "./styles.module.scss";
@@ -94,14 +95,29 @@ const Chat = () => {
                   </h4>
                   <h5 className={styles.chatInfoDate}>12:10p</h5>
                 </span>
-                {chatMessages.map((msg, index) => (
-                  <ChatMessage
-                    ket={index}
-                    messageType={msg.messageType}
-                    date={msg.date}
-                    text={msg.text}
-                  />
-                ))}
+                {chatMessages.map((msg, index) =>
+                  msg.isCalendar ? (
+                    <CalendarMessage
+                      ket={index}
+                      calendarTitle={msg.calendarTitle}
+                      messageType={msg.messageType}
+                      date={msg.date}
+                      text={msg.text}
+                      isDone={msg.isDone}
+                      completedBy={msg.completedBy}
+                      completedTime={msg.completedTime}
+                      calendarDate={msg.calendarDate}
+                      calendarSubTitle={msg.calendarSubTitle}
+                    />
+                  ) : (
+                    <ChatMessage
+                      ket={index}
+                      messageType={msg.messageType}
+                      date={msg.date}
+                      text={msg.text}
+                    />
+                  )
+                )}
               </div>
               <div className={styles.chatSendMessage}>
                 <span className={styles.chatFooterAttachment}>

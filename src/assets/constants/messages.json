@@ -1,12 +1,36 @@
 [
   {
+    "messageType": "receive",
+    "date": "12:20pm",
+    "text": "assist with daily grooming activities such as bathing, teeth, hair",
+    "isDone": true,
+    "isCalendar": true,
+    "completedBy": "Derek Smith completed",
+    "completedTime": "Mar 23 3:23pm",
+    "calendarDate": "Dec 1 Daily",
+    "calendarTitle": "Daily grooming assistance"
+  },
+  {
+    "messageType": "send",
+    "date": "9:12am",
+    "isDone": false,
+    "isCalendar": true,
+    "completedBy": "Derek Smith completed",
+    "completedTime": "Mar 23 3:23pm",
+    "calendarDate": "FRI Oct 12 4:27 PM",
+    "calendarTitle": "Chest Pain",
+    "calendarSubTitle": "kbecker@gmail.com completed - THU Oct 11 3:29 PM"
+  },
+  {
     "messageType": "send",
     "date": "11:58am",
-    "text": "I moved Karen’s knitting kit from the study upstairs to the the living room."
+    "text": "I moved Karen’s knitting kit from the study upstairs to the the living room.",
+    "isCalendar": false
   },
   {
     "messageType": "receive",
     "date": "1:45pm",
-    "text": "That’s a good call. I’ll be stopping by later to have dinner with her.  Pizza for everyone! Join us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem enim. Praesent accumsan feugiat lorem et finibus. Vestibulum scelerisque id eros dignissim tincidunt. Morbi id tortor egestas, feugiat massa viverra, posuere nisl."
+    "text": "That’s a good call. I’ll be stopping by later to have dinner with her.  Pizza for everyone! Join us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem enim. Praesent accumsan feugiat lorem et finibus. Vestibulum scelerisque id eros dignissim tincidunt. Morbi id tortor egestas, feugiat massa viverra, posuere nisl.",
+    "isCalendar": false
   }
 ]

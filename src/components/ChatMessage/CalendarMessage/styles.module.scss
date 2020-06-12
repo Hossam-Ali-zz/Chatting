@@ -1,0 +1,131 @@
+.messageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message {
+  font-size: 1rem;
+  padding: 20px;
+  width: 85%;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+
+.send {
+  background-color: #f0f3f9;
+  color: #546566;
+  border-radius: 36px 36px 36px 0;
+}
+
+.receive {
+  background-color: #eeeef8;
+  color: #546566;
+  border-radius: 36px 36px 0 36px;
+}
+
+.calendarFooterContainer {
+  width: 130px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.calendarTitle {
+  font-size: 13px;
+  color: #546566;
+  font-weight: bolder;
+}
+
+.messageBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.clockIconContainer {
+  display: flex;
+}
+
+.calendarDate {
+  font-size: 13px;
+  color: #546566;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.calendarIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.calendarText {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 13px;
+  color: #546566;
+}
+
+.isDoneContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendarCompletedContainer {
+  display: flex;
+  align-items: center;
+}
+
+.calendarCompletedBy {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.isDone {
+  margin: 0;
+  color: #e88282;
+}
+
+.calendarSubTitle {
+  font-size: 8px;
+  color: #4e4b4c;
+  margin-left: 26px;
+}
+
+.calendarServeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.calenderServeText {
+  margin: 0;
+  color: #ce5b4c;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.calendarHistoryText {
+  margin: 0;
+  color: #546566;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.calendarHistoryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.caldenerFooterContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
