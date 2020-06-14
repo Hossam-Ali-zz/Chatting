@@ -39,7 +39,7 @@ const CalendarMessage = ({
       <div
         className={styles.messageBody}
         style={{
-          ...(isDone ? { width: "10%" } : {}),
+          ...(isDone ? { width: "15%" } : {}),
         }}
       >
         <span className={styles.clockIconContainer}>
