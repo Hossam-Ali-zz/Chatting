@@ -13,8 +13,8 @@ import SideMenu from "../../components/SideMenu";
 import ConversationTag from "../../components/ConversationTag";
 import ChatMessage from "../../components/ChatMessage/NormalMessage";
 import CalendarMessage from "../../components/ChatMessage/CalendarMessage";
-import Conversations from "../../assets/constants/conversations.json";
-import Messages from "../../assets/constants/messages.json";
+import Conversations from "../../constants/conversations.json";
+import Messages from "../../constants/messages.json";
 import styles from "./styles.module.scss";
 
 const { Header, Content } = Layout;
